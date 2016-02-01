@@ -1,5 +1,14 @@
 ##You should create one R script called run_analysis.R that does the following.
 
+
+library(data.table)
+library(datasets)
+library(dplyr)
+library(plyr)
+
+setwd("~/Documents/Coursera/Getting and Cleaning Data/getdata-projectfiles-UCI HAR Dataset")
+
+
 ##1-Merges the training and the test sets to create one data set.
 
 
